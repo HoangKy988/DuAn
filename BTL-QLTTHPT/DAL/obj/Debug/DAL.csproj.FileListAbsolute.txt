@@ -1,0 +1,13 @@
+D:\Study\Tài liệu\C#\BTL-QLTTHPT\DAL\bin\Debug\DAL.dll
+D:\Study\Tài liệu\C#\BTL-QLTTHPT\DAL\bin\Debug\DAL.pdb
+D:\Study\Tài liệu\C#\BTL-QLTTHPT\DAL\bin\Debug\DTO.dll
+D:\Study\Tài liệu\C#\BTL-QLTTHPT\DAL\bin\Debug\DTO.pdb
+D:\Study\Tài liệu\C#\BTL-QLTTHPT\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+D:\Study\Tài liệu\C#\BTL-QLTTHPT\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\Study\Tài liệu\C#\BTL-QLTTHPT\DAL\obj\Debug\DAL.csproj.Up2Date
+D:\Study\Tài liệu\C#\BTL-QLTTHPT\DAL\obj\Debug\DAL.dll
+D:\Study\Tài liệu\C#\BTL-QLTTHPT\DAL\obj\Debug\DAL.pdb
+D:\Study\TaiLieu\C#\BTL-QLTTHPT\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+D:\Study\TaiLieu\C#\BTL-QLTTHPT\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\Study\TaiLieu\C#\BTL-QLTTHPT\DAL\obj\Debug\DAL.dll
+D:\Study\TaiLieu\C#\BTL-QLTTHPT\DAL\obj\Debug\DAL.pdb

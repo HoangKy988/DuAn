@@ -1,0 +1,93 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Ảnh món ăn -->
+        <ImageView
+            android:id="@+id/imgDish"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_avatar_placeholder"
+            android:background="@drawable/bottom_nav_border"
+            android:contentDescription="@string/desc_dish_image" />
+
+        <!-- Nút chọn ảnh -->
+        <Button
+            android:id="@+id/btnSelectImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:text="@string/btn_select_image" />
+
+        <!-- Tên món -->
+        <EditText
+            android:id="@+id/edtName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:hint="@string/hint_name"
+            android:inputType="textPersonName"
+            android:textColor="@android:color/black" />
+
+        <!-- Mô tả -->
+        <EditText
+            android:id="@+id/edtDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:hint="@string/hint_description"
+            android:inputType="textMultiLine"
+            android:lines="2"
+            android:gravity="top"
+            android:textColor="@android:color/black" />
+
+        <!-- Nguyên liệu -->
+        <EditText
+            android:id="@+id/edtIngredients"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:hint="@string/hint_ingredients"
+            android:inputType="textMultiLine"
+            android:lines="3"
+            android:gravity="top"
+            android:textColor="@android:color/black" />
+
+        <!-- Cách làm -->
+        <EditText
+            android:id="@+id/edtInstructions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:hint="@string/hint_instructions"
+            android:inputType="textMultiLine"
+            android:minLines="3"
+            android:gravity="top"
+            android:textColor="@android:color/black" />
+
+        <!-- Thời gian nấu -->
+        <EditText
+            android:id="@+id/edtCookingTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:hint="@string/hint_cooking_time"
+            android:inputType="number"
+            android:textColor="@android:color/black" />
+
+        <!-- Nút lưu -->
+        <Button
+            android:id="@+id/btnSaveDish"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:text="@string/btn_save_dish" />
+    </LinearLayout>
+</ScrollView>

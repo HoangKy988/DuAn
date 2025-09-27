@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF8F0">
+
+    <!-- Nội dung cuộn -->
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/scroll"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:padding="16dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/actionButtons">
+
+        <!-- CHỈ 1 CHILD -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:layout_marginBottom="24dp"
+                app:cardCornerRadius="16dp"
+                app:cardElevation="8dp">
+
+                <ImageView
+                    android:id="@+id/imgDishDetail"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerCrop"
+                    android:contentDescription="@string/dish_image_content_desc"/>
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/tvDishName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/dish_name"
+                android:textColor="#BF360C"
+                android:textSize="28sp"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-medium"/>
+
+            <TextView
+                android:id="@+id/tvDishDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/dish_description"
+                android:textColor="#5D4037"
+                android:textSize="18sp"/>
+
+            <!-- Nguyên liệu -->
+            <TextView
+                android:id="@+id/labelIngredients"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:text="@string/label_ingredients"
+                android:textColor="#BF360C"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/tvDishIngredients"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/dish_ingredients"
+                android:textColor="#5D4037"
+                android:textSize="18sp"/>
+
+            <!-- Cách làm -->
+            <TextView
+                android:id="@+id/labelRecipe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:text="@string/label_recipe"
+                android:textColor="#BF360C"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/tvDishRecipe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/dish_recipe"
+                android:textColor="#5D4037"
+                android:textSize="18sp"/>
+
+            <!-- Thời gian nấu -->
+            <TextView
+                android:id="@+id/tvDishCookTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:text="@string/dish_cook_time"
+                android:textColor="#8D6E63"
+                android:textSize="14sp"/>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+    <!-- Nhóm nút thao tác -->
+    <LinearLayout
+        android:id="@+id/actionButtons"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <Button
+            android:id="@+id/btnEdit"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Sửa"
+            android:textSize="12sp"
+            android:textColor="@android:color/white"
+            android:backgroundTint="@color/orange"
+            android:drawableLeft="@drawable/ic_edit_24"
+            android:drawablePadding="8dp"/>
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="8dp"
+            android:textSize="12sp"
+            android:text="@string/save_recipe"
+            android:textColor="@android:color/white"
+            android:backgroundTint="@color/orange"
+            android:drawableLeft="@drawable/ic_bookmark"
+            android:drawablePadding="8dp"/>
+
+        <Button
+            android:id="@+id/btnDelete"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="8dp"
+            android:text="Xóa"
+            android:textSize="12sp"
+            android:textColor="@android:color/white"
+            android:backgroundTint="@color/orange"
+            android:drawableLeft="@drawable/ic_delete_24"
+            android:drawablePadding="8dp"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

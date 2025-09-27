@@ -1,0 +1,12 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24"
+    android:tint="?attr/colorControlNormal">
+
+    <!-- Icon máy ảnh + dấu cộng -->
+    <path
+        android:fillColor="@android:color/black"
+        android:pathData="M3,4h3.17L7.59,2.59C7.84,2.22 8.27,2 8.71,2h6.59c0.44,0 0.87,0.22 1.12,0.59L18.83,4H22c1.1,0 2,0.9 2,2v12c0,1.1 -0.9,2 -2,2H3c-1.1,0 -2,-0.9 -2,-2V6c0,-1.1 0.9,-2 2,-2zM12,17c2.76,0 5,-2.24 5,-5s-2.24,-5 -5,-5 -5,2.24 -5,5 2.24,5 5,5zM19,6v2h2v2h-2v2h-2V10h-2V8h2V6h2z" />
+</vector>

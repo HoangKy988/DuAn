@@ -1,0 +1,187 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\DuAn\\C#-QLTTHPT\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{01E32436-A0B2-4448-9F45-87923EAF78EE}|DAL\\DAL.csproj|d:\\duan\\c#-qltthpt\\dal\\databaseaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01E32436-A0B2-4448-9F45-87923EAF78EE}|DAL\\DAL.csproj|solutionrelative:dal\\databaseaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCFA37ED-94F9-4347-8604-C24812D41B30}|GUI\\GUI.csproj|D:\\DuAn\\C#-QLTTHPT\\gui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCFA37ED-94F9-4347-8604-C24812D41B30}|GUI\\GUI.csproj|solutionrelative:gui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCFA37ED-94F9-4347-8604-C24812D41B30}|GUI\\GUI.csproj|D:\\DuAn\\C#-QLTTHPT\\gui\\allcontrols\\uc_qllh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BCFA37ED-94F9-4347-8604-C24812D41B30}|GUI\\GUI.csproj|solutionrelative:gui\\allcontrols\\uc_qllh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCFA37ED-94F9-4347-8604-C24812D41B30}|GUI\\GUI.csproj|D:\\DuAn\\C#-QLTTHPT\\gui\\allcontrols\\uc_qlhs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BCFA37ED-94F9-4347-8604-C24812D41B30}|GUI\\GUI.csproj|solutionrelative:gui\\allcontrols\\uc_qlhs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCFA37ED-94F9-4347-8604-C24812D41B30}|GUI\\GUI.csproj|D:\\DuAn\\C#-QLTTHPT\\gui\\allcontrols\\uc_qlgv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BCFA37ED-94F9-4347-8604-C24812D41B30}|GUI\\GUI.csproj|solutionrelative:gui\\allcontrols\\uc_qlgv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCFA37ED-94F9-4347-8604-C24812D41B30}|GUI\\GUI.csproj|D:\\DuAn\\C#-QLTTHPT\\gui\\allcontrols\\uc_qlct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BCFA37ED-94F9-4347-8604-C24812D41B30}|GUI\\GUI.csproj|solutionrelative:gui\\allcontrols\\uc_qlct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01E32436-A0B2-4448-9F45-87923EAF78EE}|DAL\\DAL.csproj|D:\\DuAn\\C#-QLTTHPT\\dal\\taikhoanacess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01E32436-A0B2-4448-9F45-87923EAF78EE}|DAL\\DAL.csproj|solutionrelative:dal\\taikhoanacess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCFA37ED-94F9-4347-8604-C24812D41B30}|GUI\\GUI.csproj|D:\\DuAn\\C#-QLTTHPT\\gui\\giaodien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BCFA37ED-94F9-4347-8604-C24812D41B30}|GUI\\GUI.csproj|solutionrelative:gui\\giaodien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCFA37ED-94F9-4347-8604-C24812D41B30}|GUI\\GUI.csproj|D:\\DuAn\\C#-QLTTHPT\\gui\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BCFA37ED-94F9-4347-8604-C24812D41B30}|GUI\\GUI.csproj|solutionrelative:gui\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C6D032F-2039-4C58-A06E-A8DDDE2576E3}|BLL\\BLL.csproj|D:\\DuAn\\C#-QLTTHPT\\bll\\taikhoanbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C6D032F-2039-4C58-A06E-A8DDDE2576E3}|BLL\\BLL.csproj|solutionrelative:bll\\taikhoanbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 29,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\DuAn\\C#-QLTTHPT\\GUI\\Program.cs",
+              "RelativeDocumentMoniker": "GUI\\Program.cs",
+              "ToolTip": "D:\\DuAn\\C#-QLTTHPT\\GUI\\Program.cs",
+              "RelativeToolTip": "GUI\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T18:29:24.971Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UC_QLLH.cs [Design]",
+              "DocumentMoniker": "D:\\DuAn\\C#-QLTTHPT\\GUI\\AllControls\\UC_QLLH.cs",
+              "RelativeDocumentMoniker": "GUI\\AllControls\\UC_QLLH.cs",
+              "ToolTip": "D:\\Study\\TaiLieu\\C#\\BTL-QLTTHPT\\GUI\\AllControls\\UC_QLLH.cs [Design]",
+              "RelativeToolTip": "..\\..\\Study\\TaiLieu\\C#\\BTL-QLTTHPT\\GUI\\AllControls\\UC_QLLH.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T18:29:07.856Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UC_QLHS.cs [Design]",
+              "DocumentMoniker": "D:\\DuAn\\C#-QLTTHPT\\GUI\\AllControls\\UC_QLHS.cs",
+              "RelativeDocumentMoniker": "GUI\\AllControls\\UC_QLHS.cs",
+              "ToolTip": "D:\\Study\\TaiLieu\\C#\\BTL-QLTTHPT\\GUI\\AllControls\\UC_QLHS.cs [Design]",
+              "RelativeToolTip": "..\\..\\Study\\TaiLieu\\C#\\BTL-QLTTHPT\\GUI\\AllControls\\UC_QLHS.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T18:29:06.494Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UC_QLGV.cs [Design]",
+              "DocumentMoniker": "D:\\DuAn\\C#-QLTTHPT\\GUI\\AllControls\\UC_QLGV.cs",
+              "RelativeDocumentMoniker": "GUI\\AllControls\\UC_QLGV.cs",
+              "ToolTip": "D:\\Study\\TaiLieu\\C#\\BTL-QLTTHPT\\GUI\\AllControls\\UC_QLGV.cs [Design]",
+              "RelativeToolTip": "..\\..\\Study\\TaiLieu\\C#\\BTL-QLTTHPT\\GUI\\AllControls\\UC_QLGV.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T18:29:04.554Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UC_QLCT.cs [Design]",
+              "DocumentMoniker": "D:\\DuAn\\C#-QLTTHPT\\GUI\\AllControls\\UC_QLCT.cs",
+              "RelativeDocumentMoniker": "GUI\\AllControls\\UC_QLCT.cs",
+              "ToolTip": "D:\\Study\\TaiLieu\\C#\\BTL-QLTTHPT\\GUI\\AllControls\\UC_QLCT.cs [Design]",
+              "RelativeToolTip": "..\\..\\Study\\TaiLieu\\C#\\BTL-QLTTHPT\\GUI\\AllControls\\UC_QLCT.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T18:29:03.006Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "taikhoanAcess.cs",
+              "DocumentMoniker": "D:\\DuAn\\C#-QLTTHPT\\DAL\\taikhoanAcess.cs",
+              "RelativeDocumentMoniker": "DAL\\taikhoanAcess.cs",
+              "ToolTip": "D:\\DuAn\\C#-QLTTHPT\\DAL\\taikhoanAcess.cs",
+              "RelativeToolTip": "DAL\\taikhoanAcess.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T18:28:39.764Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "databaseAccess.cs",
+              "DocumentMoniker": "D:\\DuAn\\C#-QLTTHPT\\DAL\\databaseAccess.cs",
+              "RelativeDocumentMoniker": "DAL\\databaseAccess.cs",
+              "ToolTip": "D:\\DuAn\\C#-QLTTHPT\\DAL\\databaseAccess.cs",
+              "RelativeToolTip": "DAL\\databaseAccess.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAswEsAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T18:28:38.995Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GiaoDien.cs [Design]",
+              "DocumentMoniker": "D:\\DuAn\\C#-QLTTHPT\\GUI\\GiaoDien.cs",
+              "RelativeDocumentMoniker": "GUI\\GiaoDien.cs",
+              "ToolTip": "D:\\Study\\TaiLieu\\C#\\BTL-QLTTHPT\\GUI\\GiaoDien.cs [Design]",
+              "RelativeToolTip": "..\\..\\Study\\TaiLieu\\C#\\BTL-QLTTHPT\\GUI\\GiaoDien.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T18:27:18.578Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DANGNHAP.cs [Design]",
+              "DocumentMoniker": "D:\\DuAn\\C#-QLTTHPT\\GUI\\DANGNHAP.cs",
+              "RelativeDocumentMoniker": "GUI\\DANGNHAP.cs",
+              "ToolTip": "D:\\Study\\TaiLieu\\C#\\BTL-QLTTHPT\\GUI\\DANGNHAP.cs [Design]",
+              "RelativeToolTip": "..\\..\\Study\\TaiLieu\\C#\\BTL-QLTTHPT\\GUI\\DANGNHAP.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T18:27:14.482Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TaiKhoanBLL.cs",
+              "DocumentMoniker": "D:\\DuAn\\C#-QLTTHPT\\BLL\\TaiKhoanBLL.cs",
+              "RelativeDocumentMoniker": "BLL\\TaiKhoanBLL.cs",
+              "ToolTip": "D:\\DuAn\\C#-QLTTHPT\\BLL\\TaiKhoanBLL.cs",
+              "RelativeToolTip": "BLL\\TaiKhoanBLL.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T18:27:03.487Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

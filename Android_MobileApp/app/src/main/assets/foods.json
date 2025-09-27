@@ -1,0 +1,49 @@
+[
+  { "name": "Cơm trắng", "kcal": 130 },
+  { "name": "Thịt gà", "kcal": 165 },
+  { "name": "Thịt bò", "kcal": 250 },
+  { "name": "Cá hồi", "kcal": 208 },
+  { "name": "Trứng gà", "kcal": 155 },
+  { "name": "Rau luộc", "kcal": 40 },
+
+  { "name": "Bánh mì", "kcal": 265 },
+  { "name": "Mì ống", "kcal": 131 },
+  { "name": "Khoai tây", "kcal": 77 },
+  { "name": "Khoai lang", "kcal": 86 },
+  { "name": "Ngô (bắp)", "kcal": 96 },
+  { "name": "Yến mạch", "kcal": 389 },
+
+  { "name": "Thịt lợn nạc", "kcal": 242 },
+  { "name": "Thịt vịt", "kcal": 337 },
+  { "name": "Tôm", "kcal": 99 },
+  { "name": "Mực", "kcal": 92 },
+  { "name": "Cua biển", "kcal": 97 },
+  { "name": "Cá ngừ", "kcal": 144 },
+
+  { "name": "Sữa tươi", "kcal": 60 },
+  { "name": "Sữa chua", "kcal": 59 },
+  { "name": "Pho mát (cheddar)", "kcal": 402 },
+  { "name": "Bơ", "kcal": 717 },
+  { "name": "Kem", "kcal": 207 },
+
+  { "name": "Cà chua", "kcal": 18 },
+  { "name": "Dưa chuột", "kcal": 15 },
+  { "name": "Cải bó xôi", "kcal": 23 },
+  { "name": "Bông cải xanh", "kcal": 34 },
+  { "name": "Cà rốt", "kcal": 41 },
+  { "name": "Bí đỏ", "kcal": 26 },
+
+  { "name": "Chuối", "kcal": 89 },
+  { "name": "Táo", "kcal": 52 },
+  { "name": "Cam", "kcal": 43 },
+  { "name": "Xoài", "kcal": 60 },
+  { "name": "Dứa", "kcal": 50 },
+  { "name": "Nho", "kcal": 69 },
+  { "name": "Dưa hấu", "kcal": 30 },
+
+  { "name": "Hạnh nhân", "kcal": 579 },
+  { "name": "Hạt điều", "kcal": 553 },
+  { "name": "Hạt dẻ", "kcal": 607 },
+  { "name": "Lạc (đậu phộng)", "kcal": 567 },
+  { "name": "Hạt bí", "kcal": 559 }
+]

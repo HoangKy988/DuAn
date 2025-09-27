@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Chubby</string>
+    <string name="navigation_drawer_open">Mở menu</string>
+    <string name="navigation_drawer_close">Đóng menu</string>
+    <string name="action_like">Thích</string>
+    <string name="action_comment">Bình luận</string>
+    <string name="action_share">Chia sẻ</string>
+    <string name="cd_more_options">Tùy chọn thêm</string>
+    <string name="cd_edit_post">Sửa bài viết</string>
+    <string name="cd_delete_post">Xóa bài viết</string>
+    <string name="cd_avatar_of_author">Ảnh đại diện tác giả</string>
+    <string name="cd_post_image">Ảnh trong bài viết</string>
+    <string name="cd_new_post">Tạo bài viết mới</string>
+    <string name="fab_new_post_desc">Tạo bài viết mới</string>
+    <string name="action_update_post">Cập nhật bài viết</string>
+    <string name="save_recipe">Lưu công thức</string>
+    <string name="dish_image_content_desc">Hình ảnh món ăn</string>
+    <string name="dish_name">Tên món ăn</string>
+    <string name="dish_description">Mô tả món ăn sẽ được hiển thị ở đây. Bạn có thể thêm các thành phần, cách chế biến hoặc lời khuyên.</string>
+    <string name="label_ingredients">Nguyên liệu:</string>
+    <string name="dish_ingredients">Danh sách nguyên liệu</string>
+    <string name="label_recipe">Cách làm:</string>
+    <string name="dish_recipe">Các bước chế biến</string>
+    <string name="dish_cook_time">Thời gian nấu: 15 phút</string>
+    <string name="desc_dish_image">Ảnh món ăn</string>
+    <string name="btn_select_image">Chọn ảnh</string>
+    <string name="hint_name">Tên món ăn</string>
+    <string name="hint_description">Mô tả ngắn</string>
+    <string name="hint_ingredients">Nguyên liệu</string>
+    <string name="hint_instructions">Cách làm</string>
+    <string name="hint_cooking_time">Thời gian nấu (phút)</string>
+    <string name="btn_save_dish">Lưu món ăn</string>
+    <string name="btn_add_dish">Thêm món ăn</string>
+    <string name="menu_add_dish">Thêm món</string>
+    <string name="menu_add">Thêm món</string>
+    <string name="menu_dashboard">Data</string>
+    <string name="title_admin_dashboard">Admin Dashboard</string>
+    <string name="title_comments">Bình luận</string>
+    <string name="hint_comment">Viết bình luận...</string>
+    <string name="content_desc_send">Gửi bình luận</string>
+
+</resources>

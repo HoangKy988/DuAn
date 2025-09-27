@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "257286742961",
+    "project_id": "food-cdaf0",
+    "storage_bucket": "food-cdaf0.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:257286742961:android:168823a8dee6d6ae9f9390",
+        "android_client_info": {
+          "package_name": "com.example.chubby"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBf_o8wiaHDoGBqhiWpodgJ-BisM7Rv0qk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

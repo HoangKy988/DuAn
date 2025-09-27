@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Nội dung -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nội dung">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edtContent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="120dp"
+                android:gravity="top|start"
+                android:inputType="textMultiLine|textCapSentences"
+                android:importantForAutofill="yes"
+                android:autofillHints="postalAddress"
+                android:scrollbars="vertical"
+                android:maxLines="10" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Nút chọn ảnh -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnPickImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Chọn ảnh"
+            app:icon="@drawable/ic_add_photo"
+            app:iconGravity="textStart"
+            app:cornerRadius="16dp" />
+
+        <!-- Preview ảnh -->
+        <ImageView
+            android:id="@+id/imgPreview"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="8dp"
+            android:scaleType="centerCrop"
+            android:visibility="gone"
+            android:contentDescription="Ảnh đã chọn" />
+
+        <!-- Nút đăng -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnPost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_gravity="center_horizontal"
+            android:text="Đăng bài"
+            app:iconPadding="8dp"
+            app:cornerRadius="16dp" />
+    </LinearLayout>
+</ScrollView>

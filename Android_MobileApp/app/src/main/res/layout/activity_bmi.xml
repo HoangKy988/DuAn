@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF8F0"
+    android:padding="24dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TÍNH BMI"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="#BF360C"
+            android:layout_marginBottom="24dp" />
+
+        <EditText
+            android:id="@+id/edtWeight"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Cân nặng (kg)"
+            android:inputType="numberDecimal"
+            android:padding="12dp"
+            android:layout_marginBottom="16dp" />
+
+        <EditText
+            android:id="@+id/edtHeight"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Chiều cao (cm)"
+            android:inputType="numberDecimal"
+            android:padding="12dp"
+            android:layout_marginBottom="24dp" />
+
+        <Button
+            android:id="@+id/btnCalculate"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="Tính BMI"
+            android:backgroundTint="#EB7A2E"
+            android:textColor="#FFFFFF"
+            android:textAllCaps="false"
+            android:layout_marginBottom="32dp" />
+
+        <TextView
+            android:id="@+id/tvBmiResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kết quả BMI sẽ hiển thị ở đây"
+            android:textSize="18sp"
+            android:textColor="#5D4037"
+            android:gravity="center"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="32dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#D3D3D3"
+            android:layout_marginBottom="24dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TÍNH KCAL THỰC PHẨM"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="#BF360C"
+            android:layout_marginBottom="24dp"/>
+
+        <Spinner
+            android:id="@+id/spinnerFood"
+            android:layout_width="match_parent"
+            android:layout_height="48dp" />
+
+        <EditText
+            android:id="@+id/edtFoodWeight"
+            android:hint="Nhập khối lượng thực phẩm (gram)"
+            android:inputType="numberDecimal"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:padding="12dp"
+            android:layout_marginTop="16dp" />
+
+        <Button
+            android:id="@+id/btnCalculateKcal"
+            android:text="Tính Kcal"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="#EB7A2E"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/tvResultKcal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kết quả kcal"
+            android:textSize="18sp"
+            android:layout_marginTop="24dp"
+            android:textColor="#BF360C"
+            android:gravity="center" />
+
+    </LinearLayout>
+</ScrollView>
